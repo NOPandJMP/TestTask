@@ -33,6 +33,10 @@ go build -o client client.go header.go
 
 /client new
 ```
+If we want to build our client for windows, because it works the same way on windows, we need to write :
+```bash
+GOOS=windows go build -o win_client client.go header.go
+```
 
 The server handles post, put, delete requests.
 A post request means we need to create and add a new user to the database, put to update the information, delete to delete the user's information. 
