@@ -6,6 +6,7 @@ A workstation contains the following information:
    - computer name
    - network address
    - Current user name
+  
 The client part runs on windows. Running the client without parameters automatically adds/updates information about the current system. Group operations are welcome.
 The server side stores data in JSON format in a PostgreSQL database and runs on linux.
 bonus1:
